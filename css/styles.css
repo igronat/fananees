@@ -10,6 +10,7 @@
 
 body {
   font-family: "Borsok", "Arial", "sans-serif";
+  
 }
 
 /*header*/
@@ -122,10 +123,12 @@ body {
 .red {
   background-color: #ff004f;
   padding: 0;
+  
 }
 .white {
   background-color: white;
   padding: 0;
+  
 }
 
 .redRectangele {
@@ -152,7 +155,7 @@ body {
 
 .whiteRectangele {
   background-color: white;
-  height: 96.5%;
+  height: 96.6%;
   border-radius: 0px 0px 30px 0px;
   margin: 0 0px 0px 0;
 }
@@ -252,6 +255,7 @@ body {
   background-color: white;
   width: 60px;
   display: none;
+  
 }
 .redRectangele__two {
   width: 60px;
@@ -930,7 +934,7 @@ body {
   background-color: #f3bf00;
   border-radius: 30px;
   font-size: 17px;
-  font-family: Quicksand;
+  font-family: 'Quicksand';
   cursor: pointer;
   border: none;
   width: 200px;
@@ -952,3 +956,20 @@ body {
 .form__placeholder {
   height: 100px;
 }
+
+.menu__navbar {
+    position: fixed;
+right: 0;
+top: 40%;
+}
+
+.circle {
+    width: 15px;
+    height: 15px;
+    border: 2px solid black;
+    border-radius: 50%;
+    background-color: none;
+}
+
+
+
